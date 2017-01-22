@@ -35,6 +35,7 @@ public class ProjectEulerProblem4 {
     public static int reverseNumber(int number) {
         int num = number;
         int reverse = 0;
+
         while (num != 0) {
             reverse = reverse * 10 + num % 10;
             num = num / 10;
